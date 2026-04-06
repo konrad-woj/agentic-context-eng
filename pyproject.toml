@@ -1,0 +1,30 @@
+[project]
+name = "agentic-context-eng"
+version = "0.1.0"
+description = "SIMBA + ACE demo: automated context engineering for AI news digest"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    # Data collection
+    "feedparser>=6.0",
+    "requests>=2.32",
+    # LLM layer
+    "litellm>=1.56",
+    "dspy>=2.5",
+    # Utilities
+    "python-dotenv>=1.0",
+]
+
+[project.scripts]
+collect        = "collect:main"
+gen-trainset   = "generate_trainset:main"
+optimize       = "optimize_prompts:main"
+gen-digests    = "generate_digests:main"
+rate           = "rate_cards:main"
+score          = "score_feedback:main"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0",
+    "ruff>=0.9",
+]
