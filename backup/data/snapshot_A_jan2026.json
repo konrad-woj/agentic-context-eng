@@ -1,0 +1,810 @@
+{
+  "snapshot_id": "A_jan2026",
+  "label": "Jan 20–31 2026 — MCP governance, Microsoft pivot, revenue race",
+  "date_from": "2026-01-20",
+  "date_to": "2026-01-31",
+  "collected_at": "2026-04-26T21:36:45.231990+00:00",
+  "persona_keywords": {
+    "alex": [
+      "protocol",
+      "sdk",
+      "open source",
+      "benchmark",
+      "architecture",
+      "inference"
+    ],
+    "jordan": [
+      "mcp",
+      "linux foundation",
+      "microsoft",
+      "anthropic",
+      "revenue",
+      "governance",
+      "enterprise"
+    ]
+  },
+  "counts": {
+    "arxiv": 33,
+    "hn": 0,
+    "rss": 17
+  },
+  "arxiv": [
+    {
+      "source": "arxiv",
+      "category": "cs.AI",
+      "arxiv_id": "2602.00937v1",
+      "url": "https://arxiv.org/abs/2602.00937v1",
+      "github_url": "",
+      "title": "CLAMP: Contrastive Learning for 3D Multi-View Action-Conditioned Robotic Manipulation Pretraining",
+      "abstract": "Leveraging pre-trained 2D image representations in behavior cloning policies has achieved great success and has become a standard approach for robotic manipulation. However, such representations fail to capture the 3D spatial information about objects and scenes that is essential for precise manipulation. In this work, we introduce Contrastive Learning for 3D Multi-View Action-Conditioned Robotic Manipulation Pretraining (CLAMP), a novel 3D pre-training framework that utilizes point clouds and robot actions. From the merged point cloud computed from RGB-D images and camera extrinsics, we re-re...",
+      "authors": [
+        "I-Chun Arthur Liu",
+        "Krzysztof Choromanski",
+        "Sandy Huang",
+        "Connor Schenck"
+      ],
+      "published": "2026-01-31T23:32:54Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.AI",
+      "arxiv_id": "2602.00933v1",
+      "url": "https://arxiv.org/abs/2602.00933v1",
+      "github_url": "",
+      "title": "MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers",
+      "abstract": "The Model Context Protocol (MCP) is rapidly becoming the standard interface for Large Language Models (LLMs) to discover and invoke external tools. However, existing evaluations often fail to capture the complexity of real-world scenarios, relying on restricted toolsets, simplistic workflows, or subjective LLM-as-a-judge metrics. We introduce MCP-Atlas, a large-scale benchmark for evaluating tool-use competency, comprising 36 real MCP servers and 220 tools. It includes 1,000 tasks designed to assess tool-use competency in realistic, multi-step workflows. Tasks use natural language prompts that...",
+      "authors": [
+        "Chaithanya Bandi",
+        "Ben Hertzberg",
+        "Geobio Boo",
+        "Tejas Polakam",
+        "Jeff Da"
+      ],
+      "published": "2026-01-31T23:19:39Z",
+      "alex_score": 2,
+      "jordan_score": 1
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.AI",
+      "arxiv_id": "2602.00931v2",
+      "url": "https://arxiv.org/abs/2602.00931v2",
+      "github_url": "",
+      "title": "Continuous-Utility Direct Preference Optimization",
+      "abstract": "Large language model reasoning is often treated as a monolithic capability, relying on binary preference supervision that fails to capture partial progress or fine-grained reasoning quality. We introduce Continuous Utility Direct Preference Optimization (CU-DPO), a framework that aligns models to a portfolio of prompt-based cognitive strategies by replacing binary labels with continuous scores that capture fine-grained reasoning quality. We prove that learning with K strategies yields a Theta(K log K) improvement in sample complexity over binary preferences, and that DPO converges to the entro...",
+      "authors": [
+        "Muhammad Ahmed Mohsin",
+        "Muhammad Umer",
+        "Ahsan Bilal",
+        "Zihao He",
+        "Muhammad Usman Rafique"
+      ],
+      "published": "2026-01-31T23:15:32Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.AI",
+      "arxiv_id": "2602.00929v1",
+      "url": "https://arxiv.org/abs/2602.00929v1",
+      "github_url": "",
+      "title": "Learning Abstractions for Hierarchical Planning in Program-Synthesis Agents",
+      "abstract": "Humans learn abstractions and use them to plan efficiently to quickly generalize across tasks -- an ability that remains challenging for state-of-the-art large language model (LLM) agents and deep reinforcement learning (RL) systems. Inspired by the cognitive science of how people form abstractions and intuitive theories of their world knowledge, Theory-Based RL (TBRL) systems, such as TheoryCoder, exhibit strong generalization through effective use of abstractions. However, they heavily rely on human-provided abstractions and sidestep the abstraction-learning problem. We introduce TheoryCoder...",
+      "authors": [
+        "Zergham Ahmed",
+        "Kazuki Irie",
+        "Joshua B. Tenenbaum",
+        "Christopher J. Bates",
+        "Samuel J. Gershman"
+      ],
+      "published": "2026-01-31T23:01:51Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.AI",
+      "arxiv_id": "2602.00924v1",
+      "url": "https://arxiv.org/abs/2602.00924v1",
+      "github_url": "",
+      "title": "Supervised sparse auto-encoders as unconstrained feature models for semantic composition",
+      "abstract": "Sparse auto-encoders (SAEs) have re-emerged as a prominent method for mechanistic interpretability, yet they face two significant challenges: the non-smoothness of the $L_1$ penalty, which hinders reconstruction and scalability, and a lack of alignment between learned features and human semantics. In this paper, we address these limitations by adapting unconstrained feature models-a mathematical framework from neural collapse theory-and by supervising the task. We supervise (decoder-only) SAEs to reconstruct feature vectors by jointly learning sparse concept embeddings and decoder weights. Val...",
+      "authors": [
+        "Ouns El Harzli",
+        "Hugo Wallner",
+        "Yoonsoo Nam",
+        "Haixuan Xavier Tao"
+      ],
+      "published": "2026-01-31T22:47:54Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.AI",
+      "arxiv_id": "2602.00914v1",
+      "url": "https://arxiv.org/abs/2602.00914v1",
+      "github_url": "",
+      "title": "A Baseline Multimodal Approach to Emotion Recognition in Conversations",
+      "abstract": "We present a lightweight multimodal baseline for emotion recognition in conversations using the SemEval-2024 Task 3 dataset built from the sitcom Friends. The goal of this report is not to propose a novel state-of-the-art method, but to document an accessible reference implementation that combines (i) a transformer-based text classifier and (ii) a self-supervised speech representation model, with a simple late-fusion ensemble. We report the baseline setup and empirical results obtained under a limited training protocol, highlighting when multimodal fusion improves over unimodal models. This pr...",
+      "authors": [
+        "Víctor Yeste",
+        "Rodrigo Rivas-Arévalo"
+      ],
+      "published": "2026-01-31T21:54:18Z",
+      "alex_score": 1,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.AI",
+      "arxiv_id": "2602.00913v3",
+      "url": "https://arxiv.org/abs/2602.00913v3",
+      "github_url": "",
+      "title": "Do Schwartz Higher-Order Values Help Sentence-Level Human Value Detection? A Study of Hierarchical Gating and Calibration",
+      "abstract": "Human value detection from single sentences is a sparse, imbalanced multi-label task. We study whether Schwartz higher-order (HO) categories help this setting on ValueEval'24 / ValuesML (74K English sentences) under a compute-frugal budget. Rather than proposing a new architecture, we compare direct supervised transformers, hard HO$\\rightarrow$values pipelines, Presence$\\rightarrow$HO$\\rightarrow$values cascades, compact instruction-tuned large language models (LLMs), QLoRA, and low-cost upgrades such as threshold tuning and small ensembles. HO categories are learnable: the easiest bipolar pai...",
+      "authors": [
+        "Víctor Yeste",
+        "Paolo Rosso"
+      ],
+      "published": "2026-01-31T21:50:35Z",
+      "alex_score": 1,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.AI",
+      "arxiv_id": "2602.00911v1",
+      "url": "https://arxiv.org/abs/2602.00911v1",
+      "github_url": "",
+      "title": "Synapse Compendium Aware Federated Knowledge Exchange for Tool Routed LLMs",
+      "abstract": "Collaborative learning among LLM-based agents under federated learning faces challenges, including communication costs, heterogeneity in data, and tool-usage, limiting their effectiveness. We introduce Synapse, a framework that trains a shared global knowledge model of tool-usage behavior. Client agents with fixed LLMs learn tool-usage patterns locally, and transmit artifacts for federated aggregation through coordinators. A global tool compendium is updated and redistributed, enabling convergence toward stable tool selection. Synapse uses templated representations, embedding retrieval with LL...",
+      "authors": [
+        "Abhijit Chakraborty",
+        "Sandipan De",
+        "Yash Shah",
+        "Chahana Dahal",
+        "Vivek Gupta"
+      ],
+      "published": "2026-01-31T21:43:48Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.AI",
+      "arxiv_id": "2602.00906v6",
+      "url": "https://arxiv.org/abs/2602.00906v6",
+      "github_url": "",
+      "title": "Hallucination is a Consequence of Space-Optimality: A Rate-Distortion Theorem for Membership Testing",
+      "abstract": "Large language models often hallucinate with high confidence on \"random facts\" that lack inferable patterns. We formalize the memorization of such facts as a membership testing problem, unifying the discrete error metrics of Bloom filters with the continuous log-loss of LLMs. By analyzing this problem in the regime where facts are sparse in the universe of plausible claims, we establish a rate-distortion theorem: the optimal memory efficiency is characterized by the minimum KL divergence between score distributions on facts and non-facts. This theoretical framework provides a distinctive expla...",
+      "authors": [
+        "Anxin Guo",
+        "Jingwei Li"
+      ],
+      "published": "2026-01-31T21:18:28Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.AI",
+      "arxiv_id": "2602.00888v1",
+      "url": "https://arxiv.org/abs/2602.00888v1",
+      "github_url": "",
+      "title": "GAPNet: Plug-in Jointly Learning Task-Specific Graph for Dynamic Stock Relation",
+      "abstract": "The advent of the web has led to a paradigm shift in the financial relations, with the real-time dissemination of news, social discourse, and financial filings contributing significantly to the reshaping of financial forecasting. The existing methods rely on establishing relations a priori, i.e. predefining graphs to capture inter-stock relationships. However, the stock-related web signals are characterised by high levels of noise, asynchrony, and challenging to obtain, resulting in poor generalisability and non-alignment between the predefined graphs and the downstream tasks. To address this,...",
+      "authors": [
+        "Yingjie Niu",
+        "Lanxin Lu",
+        "Changhong Jin",
+        "Ruihai Dong"
+      ],
+      "published": "2026-01-31T20:25:25Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.AI",
+      "arxiv_id": "2602.00887v1",
+      "url": "https://arxiv.org/abs/2602.00887v1",
+      "github_url": "https://github.com/ctrl-gaurav/effGen",
+      "title": "EffGen: Enabling Small Language Models as Capable Autonomous Agents",
+      "abstract": "Most existing language model agentic systems today are built and optimized for large language models (e.g., GPT, Claude, Gemini) via API calls. While powerful, this approach faces several limitations including high token costs and privacy concerns for sensitive applications. We introduce effGen, an open-source agentic framework optimized for small language models (SLMs) that enables effective, efficient, and secure local deployment (pip install effgen). effGen makes four major contributions: (1) Enhanced tool-calling with prompt optimization that compresses contexts by 70-80% while preserving ...",
+      "authors": [
+        "Gaurav Srivastava",
+        "Aafiya Hussain",
+        "Chi Wang",
+        "Yingyan Celine Lin",
+        "Xuan Wang"
+      ],
+      "published": "2026-01-31T20:24:56Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.AI",
+      "arxiv_id": "2604.03237v1",
+      "url": "https://arxiv.org/abs/2604.03237v1",
+      "github_url": "",
+      "title": "The Persuasion Paradox: When LLM Explanations Fail to Improve Human-AI Team Performance",
+      "abstract": "While natural-language explanations from large language models (LLMs) are widely adopted to improve transparency and trust, their impact on objective human-AI team performance remains poorly understood. We identify a Persuasion Paradox: fluent explanations systematically increase user confidence and reliance on AI without reliably improving, and in some cases undermining, task accuracy.   Across three controlled human-subject studies spanning abstract visual reasoning (RAVEN matrices) and deductive logical reasoning (LSAT problems), we disentangle the effects of AI predictions and explanations...",
+      "authors": [
+        "Ruth Cohen",
+        "Lu Feng",
+        "Ayala Bloch",
+        "Sarit Kraus"
+      ],
+      "published": "2026-01-31T20:23:37Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.AI",
+      "arxiv_id": "2602.02585v1",
+      "url": "https://arxiv.org/abs/2602.02585v1",
+      "github_url": "",
+      "title": "Agentic Observability: Automated Alert Triage for Adobe E-Commerce",
+      "abstract": "Modern enterprise systems exhibit complex interdependencies that make observability and incident response increasingly challenging. Manual alert triage, which typically involves log inspection, API verification, and cross-referencing operational knowledge bases, remains a major bottleneck in reducing mean recovery time (MTTR). This paper presents an agentic observability framework deployed within Adobe's e-commerce infrastructure that autonomously performs alert triage using a ReAct paradigm. Upon alert detection, the agent dynamically identifies the affected service, retrieves and analyzes co...",
+      "authors": [
+        "Aprameya Bharadwaj",
+        "Kyle Tu"
+      ],
+      "published": "2026-01-31T20:20:02Z",
+      "alex_score": 0,
+      "jordan_score": 1
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.AI",
+      "arxiv_id": "2602.00883v1",
+      "url": "https://arxiv.org/abs/2602.00883v1",
+      "github_url": "",
+      "title": "DIAMOND: Directed Inference for Artifact Mitigation in Flow Matching Models",
+      "abstract": "Despite impressive results from recent text-to-image models like FLUX, visual and anatomical artifacts remain a significant hurdle for practical and professional use. Existing methods for artifact reduction, typically work in a post-hoc manner, consequently failing to intervene effectively during the core image formation process. Notably, current techniques require problematic and invasive modifications to the model weights, or depend on a computationally expensive and time-consuming process of regional refinement. To address these limitations, we propose DIAMOND, a training-free method that a...",
+      "authors": [
+        "Alicja Polowczyk",
+        "Agnieszka Polowczyk",
+        "Piotr Borycki",
+        "Joanna Waczyńska",
+        "Jacek Tabor"
+      ],
+      "published": "2026-01-31T20:08:46Z",
+      "alex_score": 1,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.AI",
+      "arxiv_id": "2602.00871v1",
+      "url": "https://arxiv.org/abs/2602.00871v1",
+      "github_url": "",
+      "title": "Beyond Output Critique: Self-Correction via Task Distillation",
+      "abstract": "Large language models (LLMs) have shown promising self-correction abilities, where iterative refinement improves the quality of generated responses. However, most existing approaches operate at the level of output critique, patching surface errors while often failing to correct deeper reasoning flaws. We propose SELF-THOUGHT, a framework that introduces an intermediate step of task abstraction before solution refinement. Given an input and an initial response, the model first distills the task into a structured template that captures key variables, constraints, and problem structure. This abst...",
+      "authors": [
+        "Hossein A. Rahmani",
+        "Mengting Wan",
+        "Pei Zhou",
+        "Longqi Yang",
+        "Nick Craswell"
+      ],
+      "published": "2026-01-31T19:15:41Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.LG",
+      "arxiv_id": "2602.00939v1",
+      "url": "https://arxiv.org/abs/2602.00939v1",
+      "github_url": "",
+      "title": "Improving Minimax Estimation Rates for Contaminated Mixture of Multinomial Logistic Experts via Expert Heterogeneity",
+      "abstract": "Contaminated mixture of experts (MoE) is motivated by transfer learning methods where a pre-trained model, acting as a frozen expert, is integrated with an adapter model, functioning as a trainable expert, in order to learn a new task. Despite recent efforts to analyze the convergence behavior of parameter estimation in this model, there are still two unresolved problems in the literature. First, the contaminated MoE model has been studied solely in regression settings, while its theoretical foundation in classification settings remains absent. Second, previous works on MoE models for classifi...",
+      "authors": [
+        "Fanqi Yan",
+        "Dung Le",
+        "Trang Pham",
+        "Huy Nguyen",
+        "Nhat Ho"
+      ],
+      "published": "2026-01-31T23:45:50Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.LG",
+      "arxiv_id": "2602.00927v1",
+      "url": "https://arxiv.org/abs/2602.00927v1",
+      "github_url": "",
+      "title": "Beyond What Seems Necessary: Hidden Gains from Scaling Training-Time Reasoning Length under Outcome Supervision",
+      "abstract": "Training LLMs to think and reason for longer has become a key ingredient in building state-of-the-art models that can solve complex problems previously out of reach. Recent efforts pursue this in different ways, such as RL fine-tuning to elicit long CoT or scaling latent reasoning through architectural recurrence. This makes reasoning length an important scaling knob. In this work, we identify a novel phenomenon (both theoretically and experimentally): under outcome-only supervision, out-of-distribution (OOD) performance can continue improving as training-time reasoning length (e.g., the token...",
+      "authors": [
+        "Yihao Xue",
+        "Allan Zhang",
+        "Jianhao Huang",
+        "Amit Sahai",
+        "Baharan Mirzasoleiman"
+      ],
+      "published": "2026-01-31T22:54:45Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.LG",
+      "arxiv_id": "2602.00921v1",
+      "url": "https://arxiv.org/abs/2602.00921v1",
+      "github_url": "",
+      "title": "On the Convergence of Jacobian-Free Backpropagation for Optimal Control Problems with Implicit Hamiltonians",
+      "abstract": "Optimal feedback control with implicit Hamiltonians poses a fundamental challenge for learning-based value function methods due to the absence of closed-form optimal control laws. Recent work~\\cite{gelphman2025end} introduced an implicit deep learning approach using Jacobian-Free Backpropagation (JFB) to address this setting, but only established sample-wise descent guarantees. In this paper, we establish convergence guarantees for JFB in the stochastic minibatch setting, showing that the resulting updates converge to stationary points of the expected optimal control objective. We further demo...",
+      "authors": [
+        "Eric Gelphman",
+        "Deepanshu Verma",
+        "Nicole Tianjiao Yang",
+        "Stanley Osher",
+        "Samy Wu Fung"
+      ],
+      "published": "2026-01-31T22:25:46Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.LG",
+      "arxiv_id": "2602.00918v2",
+      "url": "https://arxiv.org/abs/2602.00918v2",
+      "github_url": "",
+      "title": "Early Classification of Time Series in Non-Stationary Cost Regimes",
+      "abstract": "Early Classification of Time Series (ECTS) addresses decision-making problems in which predictions must be made as early as possible while maintaining high accuracy. Most existing ECTS methods assume that the time-dependent decision costs governing the learning objective are known, fixed, and correctly specified. In practice, however, these costs are often uncertain and may change over time, leading to mismatches between training-time and deployment-time objectives. In this paper, we study ECTS under two practically relevant forms of cost non-stationarity: drift in the balance between misclass...",
+      "authors": [
+        "Aurélien Renault",
+        "Alexis Bondu",
+        "Antoine Cornuéjols",
+        "Vincent Lemaire"
+      ],
+      "published": "2026-01-31T22:09:56Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.LG",
+      "arxiv_id": "2602.00910v1",
+      "url": "https://arxiv.org/abs/2602.00910v1",
+      "github_url": "",
+      "title": "Efficient Deep Learning for Medical Imaging: Bridging the Gap Between High-Performance AI and Clinical Deployment",
+      "abstract": "Deep learning has revolutionized medical image analysis, playing a vital role in modern clinical applications. However, the deployment of large-scale models in real-world clinical settings remains challenging due to high computational costs, latency constraints, and patient data privacy concerns associated with cloud-based processing. To address these bottlenecks, this review provides a comprehensive synthesis of efficient and lightweight deep learning architectures specifically tailored for the medical domain. We categorize the landscape of modern efficient models into three primary streams: ...",
+      "authors": [
+        "Cuong Manh Nguyen",
+        "Truong-Son Hy"
+      ],
+      "published": "2026-01-31T21:42:36Z",
+      "alex_score": 1,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.LG",
+      "arxiv_id": "2602.00907v1",
+      "url": "https://arxiv.org/abs/2602.00907v1",
+      "github_url": "",
+      "title": "PyGALAX: An Open-Source Python Toolkit for Advanced Explainable Geospatial Machine Learning",
+      "abstract": "PyGALAX is a Python package for geospatial analysis that integrates automated machine learning (AutoML) and explainable artificial intelligence (XAI) techniques to analyze spatial heterogeneity in both regression and classification tasks. It automatically selects and optimizes machine learning models for different geographic locations and contexts while maintaining interpretability through SHAP (SHapley Additive exPlanations) analysis. PyGALAX builds upon and improves the GALAX framework (Geospatial Analysis Leveraging AutoML and eXplainable AI), which has proven to outperform traditional geog...",
+      "authors": [
+        "Pingping Wang",
+        "Yihong Yuan",
+        "Lingcheng Li",
+        "Yongmei Lu"
+      ],
+      "published": "2026-01-31T21:26:24Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.LG",
+      "arxiv_id": "2602.00899v1",
+      "url": "https://arxiv.org/abs/2602.00899v1",
+      "github_url": "",
+      "title": "Domain-Adaptive and Scalable Dense Retrieval for Content-Based Recommendation",
+      "abstract": "E-commerce recommendation and search commonly rely on sparse keyword matching (e.g., BM25), which breaks down under vocabulary mismatch when user intent has limited lexical overlap with product metadata. We cast content-based recommendation as recommendation-as-retrieval: given a natural-language intent signal (a query or review), retrieve the top-K most relevant items from a large catalog via semantic similarity.   We present a scalable dense retrieval system based on a two-tower bi-encoder, fine-tuned on the Amazon Reviews 2023 (Fashion) subset using supervised contrastive learning with Mult...",
+      "authors": [
+        "Mritunjay Pandey"
+      ],
+      "published": "2026-01-31T20:58:23Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.LG",
+      "arxiv_id": "2602.00886v1",
+      "url": "https://arxiv.org/abs/2602.00886v1",
+      "github_url": "",
+      "title": "RoDiF: Robust Direct Fine-Tuning of Diffusion Policies with Corrupted Human Feedback",
+      "abstract": "Diffusion policies are a powerful paradigm for robotic control, but fine-tuning them with human preferences is fundamentally challenged by the multi-step structure of the denoising process. To overcome this, we introduce a Unified Markov Decision Process (MDP) formulation that coherently integrates the diffusion denoising chain with environmental dynamics, enabling reward-free Direct Preference Optimization (DPO) for diffusion policies. Building on this formulation, we propose RoDiF (Robust Direct Fine-Tuning), a method that explicitly addresses corrupted human preferences. RoDiF reinterprets ...",
+      "authors": [
+        "Amitesh Vatsa",
+        "Zhixian Xie",
+        "Wanxin Jin"
+      ],
+      "published": "2026-01-31T20:17:15Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.LG",
+      "arxiv_id": "2602.00885v1",
+      "url": "https://arxiv.org/abs/2602.00885v1",
+      "github_url": "",
+      "title": "Reliability-Aware Determinantal Point Processes for Robust Informative Data Selection in Large Language Models",
+      "abstract": "Informative data selection is a key requirement for large language models (LLMs) to minimize the amount of data required for fine-tuning, network distillation, and token pruning, enabling fast and efficient deployment, especially under computational and communication constraints. Traditional subset selection methods, including those based on Determinantal Point Processes (DPP), focus on maximizing diversity but assume that selected data batches are always available error-free. This presumption prohibits their use under partial storage outage, imperfect communication, and stochastic access fail...",
+      "authors": [
+        "Ahmad Sarlak",
+        "Abolfazl Razi"
+      ],
+      "published": "2026-01-31T20:14:33Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.CL",
+      "arxiv_id": "2602.00881v1",
+      "url": "https://arxiv.org/abs/2602.00881v1",
+      "github_url": "",
+      "title": "ILSIC: Corpora for Identifying Indian Legal Statutes from Queries by Laypeople",
+      "abstract": "Legal Statute Identification (LSI) for a given situation is one of the most fundamental tasks in Legal NLP. This task has traditionally been modeled using facts from court judgments as input queries, due to their abundance. However, in practical settings, the input queries are likely to be informal and asked by laypersons, or non-professionals. While a few laypeople LSI datasets exist, there has been little research to explore the differences between court and laypeople data for LSI. In this work, we create ILSIC, a corpus of laypeople queries covering 500+ statutes from Indian law. Additional...",
+      "authors": [
+        "Shounak Paul",
+        "Raghav Dogra",
+        "Pawan Goyal",
+        "Saptarshi Ghosh"
+      ],
+      "published": "2026-01-31T20:05:48Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.CL",
+      "arxiv_id": "2602.00866v1",
+      "url": "https://arxiv.org/abs/2602.00866v1",
+      "github_url": "",
+      "title": "Foundation CAN LM: A Pretrained Language Model For Automotive CAN Data",
+      "abstract": "The Controller Area Network (CAN) bus provides a rich source of vehicular signals increasingly leveraged for applications in automotive and auto insurance domains, including collision detection, predictive maintenance, and driver risk modeling. Despite this potential, existing pipelines largely train isolated task-specific models on raw CAN data, with only limited efforts exploring decoded signals. Such fragmentation prevents shared representation learning and limits cross-task generalization. By contrast, natural language processing (NLP) and computer vision (CV) have been transformed by the ...",
+      "authors": [
+        "Akiharu Esashi",
+        "Pawissanutt Lertpongrujikorn",
+        "Justin Makino",
+        "Yuibi Fujimoto",
+        "Mohsen Amini Salehi"
+      ],
+      "published": "2026-01-31T19:00:48Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.CL",
+      "arxiv_id": "2602.00861v1",
+      "url": "https://arxiv.org/abs/2602.00861v1",
+      "github_url": "",
+      "title": "Multi-Head Attention Is a Multi-Player Game",
+      "abstract": "Modern transformer attention is internally multi-agent -- heads compete and coordinate -- yet we train it as if it were a monolithic optimizer. We formalize this gap: cross-entropy training induces an implicit potential game among heads, and gradient descent converges to Nash equilibria with potentially unbounded inefficiency due to unpriced externalities (redundancy, correlated errors). Our main result bounds the Price of Anarchy by $Γ(G)$, the off-diagonal mass of a head interaction matrix capturing weight and gradient coupling. Under mild smoothness assumptions, we prove that both \\emph{exc...",
+      "authors": [
+        "Kushal Chakrabarti",
+        "Nirmal Balachundar"
+      ],
+      "published": "2026-01-31T18:49:49Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.CL",
+      "arxiv_id": "2602.00857v1",
+      "url": "https://arxiv.org/abs/2602.00857v1",
+      "github_url": "",
+      "title": "Unifying Adversarial Robustness and Training Across Text Scoring Models",
+      "abstract": "Research on adversarial robustness in language models is currently fragmented across applications and attacks, obscuring shared vulnerabilities. In this work, we propose unifying the study of adversarial robustness in text scoring models spanning dense retrievers, rerankers, and reward models. This motivates adapting both attacks and adversarial training methods across model roles. Unlike open-ended generation, text scoring failures are directly testable: an attack succeeds when an irrelevant or rejected text outscores a relevant or chosen one. Using this principled lens of text scoring, we de...",
+      "authors": [
+        "Manveer Singh Tamber",
+        "Hosna Oyarhoseini",
+        "Jimmy Lin"
+      ],
+      "published": "2026-01-31T18:41:04Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.CL",
+      "arxiv_id": "2602.00848v1",
+      "url": "https://arxiv.org/abs/2602.00848v1",
+      "github_url": "",
+      "title": "Factuality on Demand: Controlling the Factuality-Informativeness Trade-off in Text Generation",
+      "abstract": "Large language models (LLMs) encode knowledge with varying degrees of confidence. When responding to queries, models face an inherent trade-off: they can generate responses that are less informative but highly factual, or more informative but potentially less accurate. Different applications demand different balances between informativeness and factuality. We introduce Factuality-Controlled Generation (FCG), a framework that enables users to specify factuality constraints alongside their queries. We propose to evaluate FCG performance on two dimensions: adherence to factuality constraints and ...",
+      "authors": [
+        "Ziwei Gong",
+        "Yanda Chen",
+        "Julia Hirschberg",
+        "Chen Zhao",
+        "He He"
+      ],
+      "published": "2026-01-31T18:22:24Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.CL",
+      "arxiv_id": "2602.00846v1",
+      "url": "https://arxiv.org/abs/2602.00846v1",
+      "github_url": "",
+      "title": "Omni-RRM: Advancing Omni Reward Modeling via Automatic Rubric-Grounded Preference Synthesis",
+      "abstract": "Multimodal large language models (MLLMs) have shown remarkable capabilities, yet their performance is often capped by the coarse nature of existing alignment techniques. A critical bottleneck remains the lack of effective reward models (RMs): existing RMs are predominantly vision-centric, return opaque scalar scores, and rely on costly human annotations. We introduce \\textbf{Omni-RRM}, the first open-source rubric-grounded reward model that produces structured, multi-dimension preference judgments with dimension-wise justifications across \\textbf{text, image, video, and audio}. At the core of ...",
+      "authors": [
+        "Zicheng Kong",
+        "Dehua Ma",
+        "Zhenbo Xu",
+        "Alven Yang",
+        "Yiwei Ru"
+      ],
+      "published": "2026-01-31T18:20:45Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.CL",
+      "arxiv_id": "2602.06065v2",
+      "url": "https://arxiv.org/abs/2602.06065v2",
+      "github_url": "",
+      "title": "Deep networks learn to parse uniform-depth context-free languages from local statistics",
+      "abstract": "Understanding how the structure of language can be learned from sentences alone is a central question in both cognitive science and machine learning. Studies of the internal representations of Large Language Models (LLMs) support their ability to parse text when predicting the next word, while representing semantic notions independently of surface form. Yet, which data statistics make these feats possible, and how much data is required, remain largely unknown. Probabilistic context-free grammars (PCFGs) provide a tractable testbed for studying these questions. However, prior work has focused e...",
+      "authors": [
+        "Jack T. Parley",
+        "Francesco Cagnetta",
+        "Matthieu Wyart"
+      ],
+      "published": "2026-01-31T17:35:06Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.CL",
+      "arxiv_id": "2602.02582v1",
+      "url": "https://arxiv.org/abs/2602.02582v1",
+      "github_url": "",
+      "title": "Uncertainty and Fairness Awareness in LLM-Based Recommendation Systems",
+      "abstract": "Large language models (LLMs) enable powerful zero-shot recommendations by leveraging broad contextual knowledge, yet predictive uncertainty and embedded biases threaten reliability and fairness. This paper studies how uncertainty and fairness evaluations affect the accuracy, consistency, and trustworthiness of LLM-generated recommendations. We introduce a benchmark of curated metrics and a dataset annotated for eight demographic attributes (31 categorical values) across two domains: movies and music. Through in-depth case studies, we quantify predictive uncertainty (via entropy) and demonstrat...",
+      "authors": [
+        "Chandan Kumar Sah",
+        "Xiaoli Lian",
+        "Li Zhang",
+        "Tony Xu",
+        "Syed Shazaib Shah"
+      ],
+      "published": "2026-01-31T17:18:13Z",
+      "alex_score": 1,
+      "jordan_score": 0
+    },
+    {
+      "source": "arxiv",
+      "category": "cs.CL",
+      "arxiv_id": "2604.09868v1",
+      "url": "https://arxiv.org/abs/2604.09868v1",
+      "github_url": "",
+      "title": "Exploring Structural Complexity in Normative RAG with Graph-based approaches: A case study on the ETSI Standards",
+      "abstract": "Industrial standards and normative documents exhibit intricate hierarchical structures, domain-specific lexicons, and extensive cross-referential dependencies, which making it challenging to process them directly by Large Language Models (LLMs).   While Retrieval-Augmented Generation (RAG) provides a computationally efficient alternative to LLM fine-tuning, standard \"vanilla\" vector-based retrieval may fail to capture the latent structural and relational features intrinsic in normative documents.   With the objective of shedding light on the most promising technique for building high-performan...",
+      "authors": [
+        "Aiman Al Masoud",
+        "Marco Arazzi",
+        "Simone Germani",
+        "Antonino Nocera"
+      ],
+      "published": "2026-01-31T17:00:43Z",
+      "alex_score": 0,
+      "jordan_score": 0
+    }
+  ],
+  "hn": [],
+  "rss": [
+    {
+      "source": "blog_openai",
+      "url": "https://openai.com/index/inside-our-in-house-data-agent",
+      "title": "Inside OpenAI’s in-house data agent",
+      "summary": "How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes.",
+      "published": "Thu, 29 Jan 2026 10:00:00 GMT",
+      "tags": [
+        "Engineering"
+      ],
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "blog_openai",
+      "url": "https://openai.com/index/taisei",
+      "title": "Taisei Corporation shapes the next generation of talent with AI",
+      "summary": "Taisei Corporation’s HR team is leading the rollout of ChatGPT Enterprise to drive AI-powered talent development across the organization.",
+      "published": "Thu, 29 Jan 2026 00:00:00 GMT",
+      "tags": [
+        "B2B Story"
+      ],
+      "alex_score": 0,
+      "jordan_score": 1
+    },
+    {
+      "source": "blog_openai",
+      "url": "https://openai.com/index/retiring-gpt-4o-and-older-models",
+      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
+      "summary": "On February 13, 2026, alongside the previously announced retirement⁠ of GPT‑5 (Instant, Thinking, and Pro), we will retire GPT‑4o, GPT‑4.1, GPT‑4.1 mini, and OpenAI o4-mini from ChatGPT. In the API, there are no changes at this time.",
+      "published": "Thu, 29 Jan 2026 00:00:00 GMT",
+      "tags": [
+        "Product"
+      ],
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "blog_openai",
+      "url": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
+      "title": "The next chapter for AI in the EU",
+      "summary": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.",
+      "published": "Wed, 28 Jan 2026 01:00:00 GMT",
+      "tags": [
+        "Global Affairs"
+      ],
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "blog_openai",
+      "url": "https://openai.com/index/emea-youth-and-wellbeing-grant",
+      "title": "EMEA Youth & Wellbeing Grant",
+      "summary": "Apply for the EMEA Youth & Wellbeing Grant, a €500,000 program funding NGOs and researchers advancing youth safety and wellbeing in the age of AI.",
+      "published": "Wed, 28 Jan 2026 01:00:00 GMT",
+      "tags": [
+        "Global Affairs"
+      ],
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "blog_openai",
+      "url": "https://openai.com/index/ai-agent-link-safety",
+      "title": "Keeping your data safe when an AI agent clicks a link",
+      "summary": "Learn how OpenAI protects user data when AI agents open links, preventing URL-based data exfiltration and prompt injection with built-in safeguards.",
+      "published": "Wed, 28 Jan 2026 00:00:00 GMT",
+      "tags": [
+        "Safety"
+      ],
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "blog_openai",
+      "url": "https://openai.com/index/pvh-future-of-fashion",
+      "title": "PVH reimagines the future of fashion with OpenAI",
+      "summary": "PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting ChatGPT Enterprise to bring AI into fashion design, supply chain, and consumer engagement.",
+      "published": "Tue, 27 Jan 2026 06:00:00 GMT",
+      "tags": [
+        "Global Affairs"
+      ],
+      "alex_score": 0,
+      "jordan_score": 1
+    },
+    {
+      "source": "blog_openai",
+      "url": "https://openai.com/index/trustbank",
+      "title": "TRUSTBANK uses AI agents to personalize Furusato Nozei gifts",
+      "summary": "TRUSTBANK partnered with Recursive to build Choice AI using OpenAI models, enabling personalized conversational recommendations that simplify Furusato Nozei gift discovery.",
+      "published": "Tue, 27 Jan 2026 00:00:00 GMT",
+      "tags": [
+        "B2B Story"
+      ],
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "blog_deepmind",
+      "url": "https://deepmind.google/blog/project-genie-experimenting-with-infinite-interactive-worlds/",
+      "title": "Project Genie: Experimenting with infinite, interactive worlds",
+      "summary": "Google AI Ultra subscribers in the U.S. can try out Project Genie, an experimental research prototype that lets you create and explore worlds.",
+      "published": "Thu, 29 Jan 2026 17:01:05 +0000",
+      "tags": [],
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "blog_huggingface",
+      "url": "https://huggingface.co/blog/daggr",
+      "title": "Introducing Daggr: Chain apps programmatically, inspect visually",
+      "summary": "",
+      "published": "Thu, 29 Jan 2026 00:00:00 GMT",
+      "tags": [],
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "blog_huggingface",
+      "url": "https://huggingface.co/blog/upskill",
+      "title": "We Got Claude to Build CUDA Kernels and teach open models!",
+      "summary": "",
+      "published": "Wed, 28 Jan 2026 00:00:00 GMT",
+      "tags": [],
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "blog_huggingface",
+      "url": "https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-2",
+      "title": "Architectural Choices in China's Open-Source AI Ecosystem: Building Beyond DeepSeek",
+      "summary": "",
+      "published": "Tue, 27 Jan 2026 15:01:45 GMT",
+      "tags": [],
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "blog_huggingface",
+      "url": "https://huggingface.co/blog/tiiuae/emirati-benchmarks",
+      "title": "Alyah ⭐️: Toward Robust Evaluation of Emirati Dialect Capabilities in Arabic LLMs",
+      "summary": "",
+      "published": "Tue, 27 Jan 2026 10:26:42 GMT",
+      "tags": [],
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "blog_huggingface",
+      "url": "https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl",
+      "title": "Unlocking Agentic RL Training for GPT-OSS: A Practical Retrospective",
+      "summary": "",
+      "published": "Tue, 27 Jan 2026 01:53:15 GMT",
+      "tags": [],
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "blog_huggingface",
+      "url": "https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face",
+      "title": "AssetOpsBench: Bridging the Gap Between AI Agent Benchmarks and Industrial Reality",
+      "summary": "",
+      "published": "Wed, 21 Jan 2026 06:25:31 GMT",
+      "tags": [],
+      "alex_score": 1,
+      "jordan_score": 0
+    },
+    {
+      "source": "blog_huggingface",
+      "url": "https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment",
+      "title": "One Year Since the “DeepSeek Moment”",
+      "summary": "",
+      "published": "Tue, 20 Jan 2026 15:02:10 GMT",
+      "tags": [],
+      "alex_score": 0,
+      "jordan_score": 0
+    },
+    {
+      "source": "blog_huggingface",
+      "url": "https://huggingface.co/blog/microsoft/diff-attn-v2",
+      "title": "Differential Transformer V2",
+      "summary": "",
+      "published": "Tue, 20 Jan 2026 03:20:57 GMT",
+      "tags": [],
+      "alex_score": 0,
+      "jordan_score": 0
+    }
+  ]
+}

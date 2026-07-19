@@ -1,0 +1,581 @@
+[
+  {
+    "input": {
+      "title": "Synapse Compendium Aware Federated Knowledge Exchange for Tool Routed LLMs",
+      "source": "arXiv [cs.AI]",
+      "source_type": "arxiv",
+      "date": "2026-01-31",
+      "content": "Abstract: Collaborative learning among LLM-based agents under federated learning faces challenges, including communication costs, heterogeneity in data, and tool-usage, limiting their effectiveness. We introduce Synapse, a framework that trains a shared global knowledge model of tool-usage behavior. Client agents with fixed LLMs learn tool-usage patterns locally, and transmit artifacts for federated aggregation through coordinators. A global tool compendium is updated and redistributed, enabling convergence toward stable tool selection. Synapse uses templated representations, embedding retrieval with LL...\narXiv ID: 2602.00911v1\n"
+    },
+    "output": {
+      "TITLE": "Synapse Compendium Aware Federated Knowledge Exchange for Tool Routed LLMs",
+      "SOURCE_TYPE": "arxiv",
+      "MATURITY": "research",
+      "BENCHMARK": "N/A",
+      "RESULT": "N/A",
+      "REPLACES": "existing federated learning approaches for LLM-based agents, specifically regarding tool-usage",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "The source is arXiv and the content is an abstract describing a new framework, indicating it is a research paper."
+    },
+    "raw_output": "<EXTRACT>\nTITLE: Synapse Compendium Aware Federated Knowledge Exchange for Tool Routed LLMs\nSOURCE_TYPE: arxiv\nMATURITY: research\nBENCHMARK: N/A\nRESULT: N/A\nREPLACES: existing federated learning approaches for LLM-based agents, specifically regarding tool-usage\nGITHUB_URL: N/A\nLICENSE: unclear\nMATURITY_EVIDENCE: The source is arXiv and the content is an abstract describing a new framework, indicating it is a research paper.\n</EXTRACT>",
+    "quality": {
+      "score": 1.0,
+      "problems": [],
+      "checks": 14
+    },
+    "snapshot_id": "A_jan2026",
+    "label": "Jan 20–31 2026 — MCP governance, Microsoft pivot, revenue race",
+    "approved": true,
+    "review_note": "auto-approved"
+  },
+  {
+    "input": {
+      "title": "MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers",
+      "source": "arXiv [cs.AI]",
+      "source_type": "arxiv",
+      "date": "2026-01-31",
+      "content": "Abstract: The Model Context Protocol (MCP) is rapidly becoming the standard interface for Large Language Models (LLMs) to discover and invoke external tools. However, existing evaluations often fail to capture the complexity of real-world scenarios, relying on restricted toolsets, simplistic workflows, or subjective LLM-as-a-judge metrics. We introduce MCP-Atlas, a large-scale benchmark for evaluating tool-use competency, comprising 36 real MCP servers and 220 tools. It includes 1,000 tasks designed to assess tool-use competency in realistic, multi-step workflows. Tasks use natural language prompts that...\narXiv ID: 2602.00933v1\n"
+    },
+    "output": {
+      "TITLE": "MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers",
+      "SOURCE_TYPE": "arxiv",
+      "MATURITY": "research",
+      "BENCHMARK": "N/A",
+      "RESULT": "N/A",
+      "REPLACES": "existing evaluations for tool-use competency that rely on restricted toolsets, simplistic workflows, or subjective LLM-as-a-judge metrics",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "SOURCE: arXiv [cs.AI]"
+    },
+    "raw_output": "<EXTRACT>\nTITLE: MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers\nSOURCE_TYPE: arxiv\nMATURITY: research\nBENCHMARK: N/A\nRESULT: N/A\nREPLACES: existing evaluations for tool-use competency that rely on restricted toolsets, simplistic workflows, or subjective LLM-as-a-judge metrics\nGITHUB_URL: N/A\nLICENSE: unclear\nMATURITY_EVIDENCE: SOURCE: arXiv [cs.AI]\n</EXTRACT>",
+    "quality": {
+      "score": 1.0,
+      "problems": [],
+      "checks": 14
+    },
+    "snapshot_id": "A_jan2026",
+    "label": "Jan 20–31 2026 — MCP governance, Microsoft pivot, revenue race",
+    "approved": true,
+    "review_note": "auto-approved"
+  },
+  {
+    "input": {
+      "title": "On the Convergence of Jacobian-Free Backpropagation for Optimal Control Problems with Implicit Hamiltonians",
+      "source": "arXiv [cs.LG]",
+      "source_type": "arxiv",
+      "date": "2026-01-31",
+      "content": "Abstract: Optimal feedback control with implicit Hamiltonians poses a fundamental challenge for learning-based value function methods due to the absence of closed-form optimal control laws. Recent work~\\cite{gelphman2025end} introduced an implicit deep learning approach using Jacobian-Free Backpropagation (JFB) to address this setting, but only established sample-wise descent guarantees. In this paper, we establish convergence guarantees for JFB in the stochastic minibatch setting, showing that the resulting updates converge to stationary points of the expected optimal control objective. We further demo...\narXiv ID: 2602.00921v1\n"
+    },
+    "output": {
+      "TITLE": "On the Convergence of Jacobian-Free Backpropagation for Optimal Control Problems with Implicit Hamiltonians",
+      "SOURCE_TYPE": "arxiv",
+      "MATURITY": "research",
+      "BENCHMARK": "N/A",
+      "RESULT": "N/A",
+      "REPLACES": "Jacobian-Free Backpropagation (JFB) which previously only established sample-wise descent guarantees",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "\"In this paper, we establish convergence guarantees for JFB in the stochastic minibatch setting...\""
+    },
+    "raw_output": "<EXTRACT>\nTITLE: On the Convergence of Jacobian-Free Backpropagation for Optimal Control Problems with Implicit Hamiltonians\nSOURCE_TYPE: arxiv\nMATURITY: research\nBENCHMARK: N/A\nRESULT: N/A\nREPLACES: Jacobian-Free Backpropagation (JFB) which previously only established sample-wise descent guarantees\nGITHUB_URL: N/A\nLICENSE: unclear\nMATURITY_EVIDENCE: \"In this paper, we establish convergence guarantees for JFB in the stochastic minibatch setting...\"\n</EXTRACT>",
+    "quality": {
+      "score": 1.0,
+      "problems": [],
+      "checks": 14
+    },
+    "snapshot_id": "A_jan2026",
+    "label": "Jan 20–31 2026 — MCP governance, Microsoft pivot, revenue race",
+    "approved": true,
+    "review_note": "auto-approved"
+  },
+  {
+    "input": {
+      "title": "Improving Minimax Estimation Rates for Contaminated Mixture of Multinomial Logistic Experts via Expert Heterogeneity",
+      "source": "arXiv [cs.LG]",
+      "source_type": "arxiv",
+      "date": "2026-01-31",
+      "content": "Abstract: Contaminated mixture of experts (MoE) is motivated by transfer learning methods where a pre-trained model, acting as a frozen expert, is integrated with an adapter model, functioning as a trainable expert, in order to learn a new task. Despite recent efforts to analyze the convergence behavior of parameter estimation in this model, there are still two unresolved problems in the literature. First, the contaminated MoE model has been studied solely in regression settings, while its theoretical foundation in classification settings remains absent. Second, previous works on MoE models for classifi...\narXiv ID: 2602.00939v1\n"
+    },
+    "output": {
+      "TITLE": "Improving Minimax Estimation Rates for Contaminated Mixture of Multinomial Logistic Experts via Expert Heterogeneity",
+      "SOURCE_TYPE": "arxiv",
+      "MATURITY": "research",
+      "BENCHMARK": "N/A",
+      "RESULT": "N/A",
+      "REPLACES": "N/A",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "The source is an arXiv paper discussing \"unresolved problems in the literature\" and the absence of a \"theoretical foundation in classification settings\"."
+    },
+    "raw_output": "<EXTRACT>\nTITLE: Improving Minimax Estimation Rates for Contaminated Mixture of Multinomial Logistic Experts via Expert Heterogeneity\nSOURCE_TYPE: arxiv\nMATURITY: research\nBENCHMARK: N/A\nRESULT: N/A\nREPLACES: N/A\nGITHUB_URL: N/A\nLICENSE: unclear\nMATURITY_EVIDENCE: The source is an arXiv paper discussing \"unresolved problems in the literature\" and the absence of a \"theoretical foundation in classification settings\".\n</EXTRACT>",
+    "quality": {
+      "score": 1.0,
+      "problems": [],
+      "checks": 14
+    },
+    "snapshot_id": "A_jan2026",
+    "label": "Jan 20–31 2026 — MCP governance, Microsoft pivot, revenue race",
+    "approved": true,
+    "review_note": "auto-approved"
+  },
+  {
+    "input": {
+      "title": "TRUSTBANK uses AI agents to personalize Furusato Nozei gifts",
+      "source": "blog_openai",
+      "source_type": "blog",
+      "date": "Tue, 27 Ja",
+      "content": "TRUSTBANK partnered with Recursive to build Choice AI using OpenAI models, enabling personalized conversational recommendations that simplify Furusato Nozei gift discovery."
+    },
+    "output": {
+      "TITLE": "TRUSTBANK uses AI agents to personalize Furusato Nozei gifts",
+      "SOURCE_TYPE": "blog",
+      "MATURITY": "production",
+      "BENCHMARK": "N/A",
+      "RESULT": "N/A",
+      "REPLACES": "existing Furusato Nozei gift discovery methods",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "\"TRUSTBANK uses AI agents to personalize Furusato Nozei gifts\" indicates active deployment and usage by a company."
+    },
+    "raw_output": "<EXTRACT>\nTITLE: TRUSTBANK uses AI agents to personalize Furusato Nozei gifts\nSOURCE_TYPE: blog\nMATURITY: production\nBENCHMARK: N/A\nRESULT: N/A\nREPLACES: existing Furusato Nozei gift discovery methods\nGITHUB_URL: N/A\nLICENSE: unclear\nMATURITY_EVIDENCE: \"TRUSTBANK uses AI agents to personalize Furusato Nozei gifts\" indicates active deployment and usage by a company.\n</EXTRACT>",
+    "quality": {
+      "score": 1.0,
+      "problems": [],
+      "checks": 14
+    },
+    "snapshot_id": "A_jan2026",
+    "label": "Jan 20–31 2026 — MCP governance, Microsoft pivot, revenue race",
+    "approved": true,
+    "review_note": "auto-approved"
+  },
+  {
+    "input": {
+      "title": "Architectural Choices in China's Open-Source AI Ecosystem: Building Beyond DeepSeek",
+      "source": "blog_huggingface",
+      "source_type": "blog",
+      "date": "Tue, 27 Ja",
+      "content": ""
+    },
+    "output": {
+      "TITLE": "Architectural Choices in China's Open-Source AI Ecosystem: Building Beyond DeepSeek",
+      "SOURCE_TYPE": "blog",
+      "MATURITY": "N/A",
+      "BENCHMARK": "N/A",
+      "RESULT": "N/A",
+      "REPLACES": "N/A",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "The source content is empty and provides no information to classify maturity."
+    },
+    "raw_output": "<EXTRACT>\nTITLE: Architectural Choices in China's Open-Source AI Ecosystem: Building Beyond DeepSeek\nSOURCE_TYPE: blog\nMATURITY: N/A\nBENCHMARK: N/A\nRESULT: N/A\nREPLACES: N/A\nGITHUB_URL: N/A\nLICENSE: unclear\nMATURITY_EVIDENCE: The source content is empty and provides no information to classify maturity.\n</EXTRACT>",
+    "quality": {
+      "score": 0.857,
+      "problems": [
+        "Invalid MATURITY: 'n/a' (must be research/beta/production)",
+        "MATURITY_EVIDENCE too short or generic"
+      ],
+      "checks": 14
+    },
+    "snapshot_id": "A_jan2026",
+    "label": "Jan 20–31 2026 — MCP governance, Microsoft pivot, revenue race",
+    "approved": true,
+    "review_note": "Invalid MATURITY: 'n/a' (must be research/beta/production); MATURITY_EVIDENCE too short or generic"
+  },
+  {
+    "input": {
+      "title": "Taisei Corporation shapes the next generation of talent with AI",
+      "source": "blog_openai",
+      "source_type": "blog",
+      "date": "Thu, 29 Ja",
+      "content": "Taisei Corporation’s HR team is leading the rollout of ChatGPT Enterprise to drive AI-powered talent development across the organization."
+    },
+    "output": {
+      "TITLE": "Taisei Corporation shapes the next generation of talent with AI",
+      "SOURCE_TYPE": "blog",
+      "MATURITY": "production",
+      "BENCHMARK": "N/A",
+      "RESULT": "N/A",
+      "REPLACES": "N/A",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "\"Taisei Corporation’s HR team is leading the rollout of ChatGPT Enterprise to drive AI-powered talent development across the organization.\""
+    },
+    "raw_output": "<EXTRACT>\nTITLE: Taisei Corporation shapes the next generation of talent with AI\nSOURCE_TYPE: blog\nMATURITY: production\nBENCHMARK: N/A\nRESULT: N/A\nREPLACES: N/A\nGITHUB_URL: N/A\nLICENSE: unclear\nMATURITY_EVIDENCE: \"Taisei Corporation’s HR team is leading the rollout of ChatGPT Enterprise to drive AI-powered talent development across the organization.\"\n</EXTRACT>",
+    "quality": {
+      "score": 1.0,
+      "problems": [],
+      "checks": 14
+    },
+    "snapshot_id": "A_jan2026",
+    "label": "Jan 20–31 2026 — MCP governance, Microsoft pivot, revenue race",
+    "approved": true,
+    "review_note": "auto-approved"
+  },
+  {
+    "input": {
+      "title": "How AI Systems Think About Education: Analyzing Latent Preference Patterns in Large Language Models",
+      "source": "arXiv [cs.CL]",
+      "source_type": "arxiv",
+      "date": "2026-02-28",
+      "content": "Abstract: This paper presents the first systematic measurement of educational alignment in Large Language Models. Using a Delphi-validated instrument comprising 48 items across eight educational-theoretical dimensions, the study reveals that GPT-5.1 exhibits highly coherent preference patterns (99.78% transitivity; 92.79% model accuracy) that largely align with humanistic educational principles where expert consensus exists. Crucially, divergences from expert opinion occur precisely in domains of normative disagreement among human experts themselves, particularly emotional dimensions and epistemic norma...\narXiv ID: 2603.21006v1\n"
+    },
+    "output": {
+      "TITLE": "How AI Systems Think About Education: Analyzing Latent Preference Patterns in Large Language Models",
+      "SOURCE_TYPE": "arxiv",
+      "MATURITY": "research",
+      "BENCHMARK": "N/A",
+      "RESULT": "92.79%",
+      "REPLACES": "N/A",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "This paper presents the first systematic measurement of educational alignment in Large Language Models."
+    },
+    "raw_output": "<EXTRACT>\nTITLE: How AI Systems Think About Education: Analyzing Latent Preference Patterns in Large Language Models\nSOURCE_TYPE: arxiv\nMATURITY: research\nBENCHMARK: N/A\nRESULT: 92.79%\nREPLACES: N/A\nGITHUB_URL: N/A\nLICENSE: unclear\nMATURITY_EVIDENCE: This paper presents the first systematic measurement of educational alignment in Large Language Models.\n</EXTRACT>",
+    "quality": {
+      "score": 1.0,
+      "problems": [],
+      "checks": 14
+    },
+    "snapshot_id": "B_feb2026",
+    "label": "Feb 15–28 2026 — Claude Sonnet 4.6, SWE-bench 80.8%, sabotage report",
+    "approved": true,
+    "review_note": "auto-approved"
+  },
+  {
+    "input": {
+      "title": "The Synthetic Web: Adversarially-Curated Mini-Internets for Diagnosing Epistemic Weaknesses of Language Agents",
+      "source": "arXiv [cs.AI]",
+      "source_type": "arxiv",
+      "date": "2026-02-28",
+      "content": "Abstract: Language agents increasingly act as web-enabled systems that search, browse, and synthesize information from diverse sources. However, these sources can include unreliable or adversarial content, and the robustness of agents to adversarial ranking - where misleading information appears prominently in search results - remains poorly understood. Existing benchmarks evaluate functional navigation or static factuality but cannot causally isolate this vulnerability, and current mitigation strategies for retrieval-augmented generation remain largely untested under such conditions. We introduce Synth...\narXiv ID: 2603.00801v1\n"
+    },
+    "output": {
+      "TITLE": "The Synthetic Web: Adversarially-Curated Mini-Internets for Diagnosing Epistemic Weaknesses of Language Agents",
+      "SOURCE_TYPE": "arxiv",
+      "MATURITY": "research",
+      "BENCHMARK": "N/A",
+      "RESULT": "N/A",
+      "REPLACES": "N/A",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "The source is arXiv and the content is an abstract, indicating a research paper/preprint."
+    },
+    "raw_output": "<EXTRACT>\nTITLE: The Synthetic Web: Adversarially-Curated Mini-Internets for Diagnosing Epistemic Weaknesses of Language Agents\nSOURCE_TYPE: arxiv\nMATURITY: research\nBENCHMARK: N/A\nRESULT: N/A\nREPLACES: N/A\nGITHUB_URL: N/A\nLICENSE: unclear\nMATURITY_EVIDENCE: The source is arXiv and the content is an abstract, indicating a research paper/preprint.\n</EXTRACT>",
+    "quality": {
+      "score": 1.0,
+      "problems": [],
+      "checks": 14
+    },
+    "snapshot_id": "B_feb2026",
+    "label": "Feb 15–28 2026 — Claude Sonnet 4.6, SWE-bench 80.8%, sabotage report",
+    "approved": true,
+    "review_note": "auto-approved"
+  },
+  {
+    "input": {
+      "title": "RLAR: An Agentic Reward System for Multi-task Reinforcement Learning on Large Language Models",
+      "source": "arXiv [cs.CL]",
+      "source_type": "arxiv",
+      "date": "2026-02-28",
+      "content": "Abstract: Large language model alignment via reinforcement learning depends critically on reward function quality. However, static, domain-specific reward models are often costly to train and exhibit poor generalization in out-of-distribution scenarios encountered during RL iterations. We present RLAR (Reinforcement Learning from Agent Rewards), an agent-driven framework that dynamically assigns tailored reward functions to individual queries. Specifically, RLAR transforms reward acquisition into a dynamic tool synthesis and invocation task. It leverages LLM agents to autonomously retrieve optimal rewar...\narXiv ID: 2603.00724v1\nCode: https://github.com/ZhuoerFeng/RLAR\n"
+    },
+    "output": {
+      "TITLE": "RLAR: An Agentic Reward System for Multi-task Reinforcement Learning on Large Language Models",
+      "SOURCE_TYPE": "arxiv",
+      "MATURITY": "research",
+      "BENCHMARK": "N/A",
+      "RESULT": "N/A",
+      "REPLACES": "static, domain-specific reward models",
+      "GITHUB_URL": "https://github.com/ZhuoerFeng/RLAR",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "The source is \"arXiv [cs.CL]\" and the content is an \"Abstract\" presenting a new framework, indicating a research paper."
+    },
+    "raw_output": "<EXTRACT>\nTITLE: RLAR: An Agentic Reward System for Multi-task Reinforcement Learning on Large Language Models\nSOURCE_TYPE: arxiv\nMATURITY: research\nBENCHMARK: N/A\nRESULT: N/A\nREPLACES: static, domain-specific reward models\nGITHUB_URL: https://github.com/ZhuoerFeng/RLAR\nLICENSE: unclear\nMATURITY_EVIDENCE: The source is \"arXiv [cs.CL]\" and the content is an \"Abstract\" presenting a new framework, indicating a research paper.\n</EXTRACT>",
+    "quality": {
+      "score": 1.0,
+      "problems": [],
+      "checks": 14
+    },
+    "snapshot_id": "B_feb2026",
+    "label": "Feb 15–28 2026 — Claude Sonnet 4.6, SWE-bench 80.8%, sabotage report",
+    "approved": true,
+    "review_note": "auto-approved"
+  },
+  {
+    "input": {
+      "title": "A Comprehensive Evaluation of LLM Unlearning Robustness under Multi-Turn Interaction",
+      "source": "arXiv [cs.AI]",
+      "source_type": "arxiv",
+      "date": "2026-02-28",
+      "content": "Abstract: Machine unlearning aims to remove the influence of specific training data from pre-trained models without retraining from scratch, and is increasingly important for large language models (LLMs) due to safety, privacy, and legal concerns. Although prior work primarily evaluates unlearning in static, single-turn settings, forgetting robustness under realistic interactive use remains underexplored. In this paper, we study whether unlearning remains stable in interactive environments by examining two common interaction patterns: self-correction and dialogue-conditioned querying. We find that knowl...\narXiv ID: 2603.00823v2\n"
+    },
+    "output": {
+      "TITLE": "A Comprehensive Evaluation of LLM Unlearning Robustness under Multi-Turn Interaction",
+      "SOURCE_TYPE": "arxiv",
+      "MATURITY": "research",
+      "BENCHMARK": "N/A",
+      "RESULT": "N/A",
+      "REPLACES": "evaluation of unlearning in static, single-turn settings",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "In this paper, we study whether unlearning remains stable in interactive environments by examining two common interaction patterns."
+    },
+    "raw_output": "<EXTRACT>\nTITLE: A Comprehensive Evaluation of LLM Unlearning Robustness under Multi-Turn Interaction\nSOURCE_TYPE: arxiv\nMATURITY: research\nBENCHMARK: N/A\nRESULT: N/A\nREPLACES: evaluation of unlearning in static, single-turn settings\nGITHUB_URL: N/A\nLICENSE: unclear\nMATURITY_EVIDENCE: In this paper, we study whether unlearning remains stable in interactive environments by examining two common interaction patterns.\n</EXTRACT>",
+    "quality": {
+      "score": 1.0,
+      "problems": [],
+      "checks": 14
+    },
+    "snapshot_id": "B_feb2026",
+    "label": "Feb 15–28 2026 — Claude Sonnet 4.6, SWE-bench 80.8%, sabotage report",
+    "approved": true,
+    "review_note": "auto-approved"
+  },
+  {
+    "input": {
+      "title": "OpenAI and Amazon announce strategic partnership",
+      "source": "blog_openai",
+      "source_type": "blog",
+      "date": "Fri, 27 Fe",
+      "content": "OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents."
+    },
+    "output": {
+      "TITLE": "OpenAI and Amazon announce strategic partnership",
+      "SOURCE_TYPE": "blog",
+      "MATURITY": "production",
+      "BENCHMARK": "N/A",
+      "RESULT": "N/A",
+      "REPLACES": "N/A",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "The partnership is \"bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents,\" indicating a deployed, commercial offering."
+    },
+    "raw_output": "<EXTRACT>\nTITLE: OpenAI and Amazon announce strategic partnership\nSOURCE_TYPE: blog\nMATURITY: production\nBENCHMARK: N/A\nRESULT: N/A\nREPLACES: N/A\nGITHUB_URL: N/A\nLICENSE: unclear\nMATURITY_EVIDENCE: The partnership is \"bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents,\" indicating a deployed, commercial offering.\n</EXTRACT>",
+    "quality": {
+      "score": 1.0,
+      "problems": [],
+      "checks": 14
+    },
+    "snapshot_id": "B_feb2026",
+    "label": "Feb 15–28 2026 — Claude Sonnet 4.6, SWE-bench 80.8%, sabotage report",
+    "approved": true,
+    "review_note": "auto-approved"
+  },
+  {
+    "input": {
+      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+      "source": "blog_openai",
+      "source_type": "blog",
+      "date": "Fri, 27 Fe",
+      "content": "Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI."
+    },
+    "output": {
+      "TITLE": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+      "SOURCE_TYPE": "blog",
+      "MATURITY": "production",
+      "BENCHMARK": "N/A",
+      "RESULT": "N/A",
+      "REPLACES": "existing multi-step AI workflows (by adding persistent orchestration, memory, and secure execution)",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "\"Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.\""
+    },
+    "raw_output": "<EXTRACT>\nTITLE: Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock\nSOURCE_TYPE: blog\nMATURITY: production\nBENCHMARK: N/A\nRESULT: N/A\nREPLACES: existing multi-step AI workflows (by adding persistent orchestration, memory, and secure execution)\nGITHUB_URL: N/A\nLICENSE: unclear\nMATURITY_EVIDENCE: \"Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.\"\n</EXTRACT>",
+    "quality": {
+      "score": 1.0,
+      "problems": [],
+      "checks": 14
+    },
+    "snapshot_id": "B_feb2026",
+    "label": "Feb 15–28 2026 — Claude Sonnet 4.6, SWE-bench 80.8%, sabotage report",
+    "approved": true,
+    "review_note": "auto-approved"
+  },
+  {
+    "input": {
+      "title": "Train AI models with Unsloth and Hugging Face Jobs for FREE",
+      "source": "blog_huggingface",
+      "source_type": "blog",
+      "date": "Fri, 20 Fe",
+      "content": ""
+    },
+    "output": {
+      "TITLE": "Train AI models with Unsloth and Hugging Face Jobs for FREE",
+      "SOURCE_TYPE": "blog",
+      "MATURITY": "N/A",
+      "BENCHMARK": "N/A",
+      "RESULT": "N/A",
+      "REPLACES": "N/A",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "N/A",
+      "MATURITY_EVIDENCE": "N/A"
+    },
+    "raw_output": "<EXTRACT>\nTITLE: Train AI models with Unsloth and Hugging Face Jobs for FREE\nSOURCE_TYPE: blog\nMATURITY: N/A\nBENCHMARK: N/A\nRESULT: N/A\nREPLACES: N/A\nGITHUB_URL: N/A\nLICENSE: N/A\nMATURITY_EVIDENCE: N/A\n</EXTRACT>",
+    "quality": {
+      "score": 0.857,
+      "problems": [
+        "Invalid MATURITY: 'n/a' (must be research/beta/production)",
+        "MATURITY_EVIDENCE too short or generic"
+      ],
+      "checks": 14
+    },
+    "snapshot_id": "B_feb2026",
+    "label": "Feb 15–28 2026 — Claude Sonnet 4.6, SWE-bench 80.8%, sabotage report",
+    "approved": true,
+    "review_note": "Invalid MATURITY: 'n/a' (must be research/beta/production); MATURITY_EVIDENCE too short or generic"
+  },
+  {
+    "input": {
+      "title": "Tool-MCoT: Tool Augmented Multimodal Chain-of-Thought for Content Safety Moderation",
+      "source": "arXiv [cs.CL]",
+      "source_type": "arxiv",
+      "date": "2026-03-15",
+      "content": "Abstract: The growth of online platforms and user content requires strong content moderation systems that can handle complex inputs from various media types. While large language models (LLMs) are effective, their high computational cost and latency present significant challenges for scalable deployment. To address this, we introduce Tool-MCoT, a small language model (SLM) fine-tuned for content safety moderation leveraging external framework. By training our model on tool-augmented chain-of-thought data generated by LLM, we demonstrate that the SLM can learn to effectively utilize these tools to improv...\narXiv ID: 2604.06205v1\n"
+    },
+    "output": {
+      "TITLE": "Tool-MCoT: Tool Augmented Multimodal Chain-of-Thought for Content Safety Moderation",
+      "SOURCE_TYPE": "arxiv",
+      "MATURITY": "research",
+      "BENCHMARK": "N/A",
+      "RESULT": "N/A",
+      "REPLACES": "LLMs for content safety moderation (due to high computational cost and latency)",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "The source is arXiv [cs.CL] and the abstract states \"we introduce Tool-MCoT\" and \"By training our model, we demonstrate\"."
+    },
+    "raw_output": "<EXTRACT>\nTITLE: Tool-MCoT: Tool Augmented Multimodal Chain-of-Thought for Content Safety Moderation\nSOURCE_TYPE: arxiv\nMATURITY: research\nBENCHMARK: N/A\nRESULT: N/A\nREPLACES: LLMs for content safety moderation (due to high computational cost and latency)\nGITHUB_URL: N/A\nLICENSE: unclear\nMATURITY_EVIDENCE: The source is arXiv [cs.CL] and the abstract states \"we introduce Tool-MCoT\" and \"By training our model, we demonstrate\".\n</EXTRACT>",
+    "quality": {
+      "score": 1.0,
+      "problems": [],
+      "checks": 14
+    },
+    "snapshot_id": "C_mar2026",
+    "label": "Mar 1–15 2026 — GPT-5.4, AlphaEvolve, MCP 97M installs",
+    "approved": true,
+    "review_note": "auto-approved"
+  },
+  {
+    "input": {
+      "title": "Fine-tuning MLLMs Without Forgetting Is Easier Than You Think",
+      "source": "arXiv [cs.CL]",
+      "source_type": "arxiv",
+      "date": "2026-03-15",
+      "content": "Abstract: The paper demonstrate that simple adjustments of the fine-tuning recipes of multimodal large language models (MLLM) are sufficient to mitigate catastrophic forgetting. On visual question answering, we design a 2x2 experimental framework to assess model performance across in-distribution and out-of-distribution image and text inputs. Our results show that appropriate regularization, such as constraining the number of trainable parameters or adopting a low learning rate, effectively prevents forgetting when dealing with out-of-distribution images. However, we uncover a distinct form of forgettin...\narXiv ID: 2603.14493v1\n"
+    },
+    "output": {
+      "TITLE": "Fine-tuning MLLMs Without Forgetting Is Easier Than You Think",
+      "SOURCE_TYPE": "arxiv",
+      "MATURITY": "research",
+      "BENCHMARK": "N/A",
+      "RESULT": "N/A",
+      "REPLACES": "N/A",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "The paper demonstrate that simple adjustments of the fine-tuning recipes of multimodal large language models (MLLM) are sufficient to mitigate catastrophic forgetting."
+    },
+    "raw_output": "<EXTRACT>\nTITLE: Fine-tuning MLLMs Without Forgetting Is Easier Than You Think\nSOURCE_TYPE: arxiv\nMATURITY: research\nBENCHMARK: N/A\nRESULT: N/A\nREPLACES: N/A\nGITHUB_URL: N/A\nLICENSE: unclear\nMATURITY_EVIDENCE: The paper demonstrate that simple adjustments of the fine-tuning recipes of multimodal large language models (MLLM) are sufficient to mitigate catastrophic forgetting.\n</EXTRACT>",
+    "quality": {
+      "score": 1.0,
+      "problems": [],
+      "checks": 14
+    },
+    "snapshot_id": "C_mar2026",
+    "label": "Mar 1–15 2026 — GPT-5.4, AlphaEvolve, MCP 97M installs",
+    "approved": true,
+    "review_note": "auto-approved"
+  },
+  {
+    "input": {
+      "title": "Nudging Hidden States: Training-Free Model Steering for Chain-of-Thought Reasoning in Large Audio-Language Models",
+      "source": "arXiv [cs.AI]",
+      "source_type": "arxiv",
+      "date": "2026-03-15",
+      "content": "Abstract: Chain-of-thought (CoT) prompting has been extended to large audio-language models (LALMs) to elicit reasoning, yet enhancing its effectiveness without training remains challenging. We study inference-time model steering as a training-free approach to improve LALM reasoning. We introduce three strategies using diverse information sources and evaluate them across four LALMs and four benchmarks. Results show general accuracy gains up to 4.4% over CoT prompting. Notably, we identify a cross-modal transfer where steering vectors derived from few text samples effectively guide speech-based reasoning...\narXiv ID: 2603.14636v1\n"
+    },
+    "output": {
+      "TITLE": "Nudging Hidden States: Training-Free Model Steering for Chain-of-Thought Reasoning in Large Audio-Language Models",
+      "SOURCE_TYPE": "arxiv",
+      "MATURITY": "research",
+      "BENCHMARK": "N/A",
+      "RESULT": "4.4%",
+      "REPLACES": "CoT prompting",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "SOURCE: arXiv [cs.AI]"
+    },
+    "raw_output": "<EXTRACT>\nTITLE: Nudging Hidden States: Training-Free Model Steering for Chain-of-Thought Reasoning in Large Audio-Language Models\nSOURCE_TYPE: arxiv\nMATURITY: research\nBENCHMARK: N/A\nRESULT: 4.4%\nREPLACES: CoT prompting\nGITHUB_URL: N/A\nLICENSE: unclear\nMATURITY_EVIDENCE: SOURCE: arXiv [cs.AI]\n</EXTRACT>",
+    "quality": {
+      "score": 1.0,
+      "problems": [],
+      "checks": 14
+    },
+    "snapshot_id": "C_mar2026",
+    "label": "Mar 1–15 2026 — GPT-5.4, AlphaEvolve, MCP 97M installs",
+    "approved": true,
+    "review_note": "auto-approved"
+  },
+  {
+    "input": {
+      "title": "LeRobot v0.5.0: Scaling Every Dimension",
+      "source": "blog_huggingface",
+      "source_type": "blog",
+      "date": "Mon, 09 Ma",
+      "content": ""
+    },
+    "output": {
+      "TITLE": "LeRobot v0.5.0: Scaling Every Dimension",
+      "SOURCE_TYPE": "blog",
+      "MATURITY": "beta",
+      "BENCHMARK": "N/A",
+      "RESULT": "N/A",
+      "REPLACES": "N/A",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "The title mentions \"v0.5.0\", indicating a pre-1.0 release."
+    },
+    "raw_output": "<EXTRACT>\nTITLE: LeRobot v0.5.0: Scaling Every Dimension\nSOURCE_TYPE: blog\nMATURITY: beta\nBENCHMARK: N/A\nRESULT: N/A\nREPLACES: N/A\nGITHUB_URL: N/A\nLICENSE: unclear\nMATURITY_EVIDENCE: The title mentions \"v0.5.0\", indicating a pre-1.0 release.\n</EXTRACT>",
+    "quality": {
+      "score": 1.0,
+      "problems": [],
+      "checks": 14
+    },
+    "snapshot_id": "C_mar2026",
+    "label": "Mar 1–15 2026 — GPT-5.4, AlphaEvolve, MCP 97M installs",
+    "approved": true,
+    "review_note": "auto-approved"
+  },
+  {
+    "input": {
+      "title": "Introducing Modular Diffusers - Composable Building Blocks for Diffusion Pipelines",
+      "source": "blog_huggingface",
+      "source_type": "blog",
+      "date": "Thu, 05 Ma",
+      "content": ""
+    },
+    "output": {
+      "TITLE": "Introducing Modular Diffusers - Composable Building Blocks for Diffusion Pipelines",
+      "SOURCE_TYPE": "blog",
+      "MATURITY": "N/A",
+      "BENCHMARK": "N/A",
+      "RESULT": "N/A",
+      "REPLACES": "N/A",
+      "GITHUB_URL": "N/A",
+      "LICENSE": "unclear",
+      "MATURITY_EVIDENCE": "N/A"
+    },
+    "raw_output": "<EXTRACT>\nTITLE: Introducing Modular Diffusers - Composable Building Blocks for Diffusion Pipelines\nSOURCE_TYPE: blog\nMATURITY: N/A\nBENCHMARK: N/A\nRESULT: N/A\nREPLACES: N/A\nGITHUB_URL: N/A\nLICENSE: unclear\nMATURITY_EVIDENCE: N/A\n</EXTRACT>",
+    "quality": {
+      "score": 0.857,
+      "problems": [
+        "Invalid MATURITY: 'n/a' (must be research/beta/production)",
+        "MATURITY_EVIDENCE too short or generic"
+      ],
+      "checks": 14
+    },
+    "snapshot_id": "C_mar2026",
+    "label": "Mar 1–15 2026 — GPT-5.4, AlphaEvolve, MCP 97M installs",
+    "approved": true,
+    "review_note": "Invalid MATURITY: 'n/a' (must be research/beta/production); MATURITY_EVIDENCE too short or generic"
+  }
+]
